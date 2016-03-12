@@ -284,5 +284,5 @@ ul.ingredients span {
 }
 
 .excerpt .instagram-media {
-  
+  max-width: 300px;
 }
