@@ -295,6 +295,11 @@ ul.ingredients span {
   padding: 0 0.2em;
 }
 
+.site-footer div.badges {
+  display: inline-block;
+  min-width: 49%;
+}
+
 ul.homepage-list li {
   clear: both;
 }
