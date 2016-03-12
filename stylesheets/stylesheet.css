@@ -214,7 +214,7 @@ a {
 
 @media screen and (min-width: 64em) {
   .main-content {
-    max-width: 64rem;
+    max-width: 48rem;
     padding: 2rem 6rem;
     margin: 0 auto;
     font-size: 0.9rem; } }
@@ -293,4 +293,14 @@ ul.ingredients span {
   height: 2em;
   vertical-align: middle;
   padding: 0 0.2em;
+}
+
+ul.homepage-list li {
+  clear: both;
+}
+
+ul.homepage-list img {
+  float: left;
+  margin-right: 2em;
+  box-shadow: 6px 6px 5px #ccc;
 }

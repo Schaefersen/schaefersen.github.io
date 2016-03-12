@@ -2,9 +2,16 @@
 layout: default
 title: Schäfersen
 ---
-<ul>
+<ul class="homepage-list">
   {% for post in site.posts %}
     <li>
+      <a href="{{ post.url }}">
+        {% if post.instagram %}
+        <img src="https://www.instagram.com/p/{{ post.instagram }}/media/?size=t">
+        {% else if post.image %}
+        <img src="/images/{{ post.image }}">
+        {% endif %}
+      </a>
       <h1>
         <a href="{{ post.url }}">{{ post.title }}</a>
       </h1>
