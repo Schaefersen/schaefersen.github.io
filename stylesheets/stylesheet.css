@@ -232,6 +232,7 @@ a {
 .site-footer {
   padding-top: 2rem;
   margin-top: 2rem;
+  text-align: center;
   border-top: solid 1px #eff0f1; }
 
 .site-footer-owner {
@@ -285,4 +286,11 @@ ul.ingredients span {
 
 .excerpt .instagram-media {
   max-width: 300px;
+}
+
+.site-footer img.badge {
+  width: 2em;
+  height: 2em;
+  vertical-align: middle;
+  padding: 0 0.2em;
 }
