@@ -1,0 +1,7 @@
+safe: true
+url: http://www.xn--schfersen-x2a.de
+defaults:
+  -
+    values:
+      title: "Schäfersen"
+      layout: post
