@@ -62,11 +62,11 @@ a {
 
 @media screen and (min-width: 64em) {
   .page-header {
-    padding: 5rem 6rem; } }
+    padding: 2rem 6rem; } }
 
 @media screen and (min-width: 42em) and (max-width: 64em) {
   .page-header {
-    padding: 3rem 4rem; } }
+    padding: 2rem 4rem; } }
 
 @media screen and (max-width: 42em) {
   .page-header {
@@ -257,4 +257,21 @@ a {
 ul {
 	list-style-type: none;
 	padding-left: 0;
+}
+
+.instagram-media {
+  background:#FFF;
+  border:0;
+  border-radius:3px;
+  box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15);
+  margin: 1px;
+  max-width:658px;
+  padding:0;
+  width:99.375%;
+  width:-webkit-calc(100% - 2px);
+  width:calc(100% - 2px);
+}
+
+.excerpt .instagram-media {
+  
 }
